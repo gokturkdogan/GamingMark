@@ -1,0 +1,87 @@
+.login {
+  background-image: url("../images/backgrounds/keyboardwallpaper.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+}
+.login__view {
+  margin-top: 30vh;
+  text-align: center;
+  font-family: "kanit";
+  letter-spacing: 3px;
+  color: rgb(202, 24, 24);
+}
+.login__form {
+  background-color: rgba(197, 187, 187, 0.3);
+  margin-top: 30vh;
+  width: 500px;
+  height: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.login__header {
+  text-align: center;
+}
+.login__header i {
+  color: rgb(202, 24, 24);
+  font-size: 54px;
+}
+.login__row {
+  margin-top: 1vh;
+  font-size: 36px;
+  border-bottom: 1px solid rgb(202, 24, 24);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.login__row input {
+  color: #FFF;
+  background: none;
+  width: 85%;
+  border: none;
+  font-family: "kanit";
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+.login__row input:focus {
+  outline: none;
+}
+.login__row ::-moz-placeholder {
+  color: rgb(194, 186, 186);
+}
+.login__row :-ms-input-placeholder {
+  color: rgb(194, 186, 186);
+}
+.login__row ::placeholder {
+  color: rgb(194, 186, 186);
+}
+.login__row i {
+  color: rgb(202, 24, 24);
+}
+.login__submit {
+  text-align: center;
+}
+.login__submit button {
+  color: white;
+  width: 100%;
+  background: rgba(255, 0, 0, 0.5);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-family: "kanit";
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .login {
+    background-image: url("../images/backgrounds/keyboardwallpapermobile.png");
+  }
+  .login__form {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */
